@@ -45,3 +45,77 @@ echo "Defina um ano e calcule se ele é bisexto: " . "<br>\n";
 ?>
 
 alte
+
+=============================================================
+<meta charset="UTF-8">
+<?php
+
+echo "Somar, dividir e multiplicar dois numeros inteiros: ";
+echo "<br>\n";
+
+$a = "10";
+$b = "5";
+$c = $a + $b;
+$d = $a - $b;
+$e = $a / $b;
+$f = $a % $b;
+
+echo "<br>\n";
+echo "A soma entre 10 e 5 é igual a " . $c . "<br>\n";
+echo "A subtração entre 10 e 5 é igual a " . $d . "<br>\n";
+echo "A divisão entre 10 e 5 é igual a " . $e . "<br>\n";
+echo "O resto da divisão entre 10 e 5 é igual a " . $f . "<br>\n";
+
+echo "<br>\n";
+echo "<br>\n";
+
+var_dump($a);
+print "<br>\n";
+var_dump($b);
+print "<br>\n";
+var_dump($c);
+print "<br>\n";
+var_dump($d);
+print "<br>\n";
+var_dump($e);
+print "<br>\n";
+var_dump($f);
+print "<br>\n";
+print "<br>\n";
+
+echo "Operadores de comparação:" . "<br>\n";
+$a = 6;
+$b = 5;
+$c = '6';
+
+print "<br>\n";
+
+echo "Igua" . "<br>\n";
+var_dump( $a == $b );
+print "<br>\n";
+
+echo "Exatamente Igual" . "<br>\n";
+var_dump( $a === $c );
+print "<br>\n";
+print "<br>\n";
+
+echo "Diferente" . "<br>\n";
+var_dump( $a != $b );
+print "<br>\n";
+
+echo "Não Idêntico" . "<br>\n";
+var_dump( $a !== $c );
+print "<br>\n";
+print "<br>\n";
+
+echo "Maior que " . "<br>\n";
+var_dump( $a > $b );
+print "<br>\n";
+
+echo "Menor que " . "<br>\n";
+var_dump( $a < $b );
+print "<br>\n";
+print "<br>\n";
+
+
+?>
