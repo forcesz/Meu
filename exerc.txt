@@ -1,21 +1,21 @@
 <meta charset="UTF-8">
 <?php 
-echo "ExercÌcio 01 " . "<br>\n";
+echo "Exerc√≠cio 01 " . "<br>\n";
 echo "Qual menor numero entre 4, 5 e 6: " . "<br>\n";
 $a = 4;
 $b = 5;
 $c = 6;
 
 if ($a < $b && $a < $c) {
-  print "Resposta: " . $a . " È menor numero!";
+  print "Resposta: " . $a . " √© menor numero!";
 } 
 
 elseif ($b < $a && $b < $c) {
-  print "Resposta: " . $b . " È menor numero!";
+  print "Resposta: " . $b . " √© menor numero!";
 }
 
 else {
-  print "Resposta: " . $c . " È menor numero!";
+  print "Resposta: " . $c . " √© menor numero!";
 }
 
 echo "<br>\n";
@@ -26,8 +26,8 @@ echo "<br>\n";
 ====================================
 <meta charset="UTF-8">
 <?php 
-echo "ExercÌcio 02 " . "<br>\n";
-echo "Defina um caracter e verifique se È uma vogal: " . "<br>\n";
+echo "Exerc√≠cio 02 " . "<br>\n";
+echo "Defina um caracter e verifique se √© uma vogal: " . "<br>\n";
 
 $a = "a","e","i","o","u";
 
@@ -36,10 +36,12 @@ $a = "a","e","i","o","u";
 ======================================
 <meta charset="UTF-8">
 <?php 
-echo "ExercÌcio 03 " . "<br>\n";
-echo "Defina um ano e calcule se ele È bisexto: " . "<br>\n";
+echo "Exerc√≠cio 03 " . "<br>\n";
+echo "Defina um ano e calcule se ele √© bisexto: " . "<br>\n";
 
 
 
 
 ?>
+
+alte
